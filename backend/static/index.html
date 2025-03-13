@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MLGAB Demo</title>
+    <link rel="stylesheet" href="../static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>MLGAB Authentication</h1>
+        
+        <!-- Registration Section -->
+        <div id="register">
+            <h2>Register</h2>
+            <input type="text" id="username" placeholder="Username">
+            <div id="image-grid"></div>
+            <p id="sequence-display"></p>
+            <button onclick="register()">Register</button>
+        </div>
+
+        <!-- Login Section -->
+        <div id="login">
+            <h2>Login</h2>
+            <input type="text" id="login_username" placeholder="Username">
+            <div id="login-image-grid"></div>
+            <p id="login-sequence-display"></p>
+            <button onclick="login()">Login</button>
+        </div>
+
+        <!-- Feedback Section -->
+        <div id="feedback">
+            <h2>Result</h2>
+            <p id="result"></p>
+        </div>
+    </div>
+    <script src="../static/script.js"></script>
+</body>
+</html>
